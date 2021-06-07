@@ -1,0 +1,55 @@
+/*Fondo de pantalla */
+body{
+    background: url(../imagen/pk.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.estilo{
+    background: rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgb(0, 0, 0, 0.568);
+    color: white;
+}
+
+/*Diseño del boton Ingresar*/
+.b1{
+    background: #eccc15;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 60px rgba(243, 49, 49, 0.568);
+    transition: 0.5s ease-in;
+}
+.b1:hover{
+    color: white;
+}
+/*Diseño del boton Registrar */
+.b2{
+    background: #00e933;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 20px rgba(251, 255, 3, 0.932);
+    transition: 0.5s ease-in;
+    border: none;
+}
+.b2:hover{
+    color: white;
+}
+/*Diseño de las cajas de texto */
+.form-control{
+    background: rgba(0, 0, 0, .3);
+    border-style: none;
+    transition: .4s ease-in;
+}
+/*El Ins es el diseño para vincular */
+.Ins{
+    color: wheat;
+    /*text-decoration: none;*/
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 700!important;
+}
